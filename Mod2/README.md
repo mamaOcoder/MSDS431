@@ -19,7 +19,7 @@
 > go run anscombe.go
 
 ### *anscombe_test.go*
-### Unit test for RegressCoef function ensures that the calculated coefficients match the output for Python and R (0.5, 3). Also includes a benchmarking test of runtime. We specified the test to run 500 times. To replicate results:
+### Unit test for RegressCoef function ensures that the calculated coefficients match the output for Python and R (0.5, 3). Also includes a benchmarking test of runtime. We specified the test to run 500 times. To replicate the results:
 
 > go test
 > go test -bench=.
